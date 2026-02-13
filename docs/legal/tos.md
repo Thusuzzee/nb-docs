@@ -1,6 +1,6 @@
 ---
-prev: false
 lastUpdated: false
+prev: false
 ---
 
 # Terms of Service

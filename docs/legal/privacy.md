@@ -1,6 +1,6 @@
 ---
-outline: [2]
 lastUpdated: false
+outline: [2]
 ---
 # Privacy Policy
 

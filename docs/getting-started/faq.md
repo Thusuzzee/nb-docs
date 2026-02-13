@@ -1,5 +1,4 @@
 ---
-prev: false
 outline: [2]
 ---
 # Frequently Asked Questions (FAQ)

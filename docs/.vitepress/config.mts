@@ -4,13 +4,11 @@ import {
   groupIconVitePlugin,
 } from "vitepress-plugin-group-icons";
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "NEKOSBEST DOCS",
   description: "nekos.best's official documentation.",
 
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     search: { provider: "local" },
 
     nav: [
@@ -116,8 +114,5 @@ export default defineConfig({
 
   vite: {
     plugins: [groupIconVitePlugin()],
-    server: {
-      allowedHosts: ["missed-rough-phones-leaders.trycloudflare.com"],
-    },
   },
 });

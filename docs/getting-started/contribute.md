@@ -1,5 +1,4 @@
 ---
-next: false
 outline: [2]
 ---
 
