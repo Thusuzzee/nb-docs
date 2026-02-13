@@ -6,7 +6,7 @@ lastUpdated: false
 
 ## About us
 
-Hello and welcome to **nekos.best's** developer documentation. 
+Hello and welcome to **NEKOSBEST's** developer documentation. 
 
 We've been active since **February 2021** and serve high quality, family friendly anime images & GIFs of all sorts of categories at fast speeds with low latency.
 
@@ -30,6 +30,12 @@ We've been active since **February 2021** and serve high quality, family friendl
     <img src="/icons/stylus_fountain_pen.svg" alt="Crediting creators" />
     <h3>Crediting creators</h3>
     <p>Artist and source information is provided where available.</p>
+  </div>
+
+  <div class="feature-card">
+    <img src="/icons/money_off.svg" alt="Free" />
+    <h3>Fully Free</h3>
+    <p>Completely free to use, with no paywalls or premium tiers.</p>
   </div>
 
   <div class="feature-card">

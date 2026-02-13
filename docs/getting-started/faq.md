@@ -2,7 +2,7 @@
 prev: false
 outline: [2]
 ---
-# FAQ (Frequently Asked Questions)
+# Frequently Asked Questions (FAQ)
 
 Listed below are some of the most commonly asked questions.
 

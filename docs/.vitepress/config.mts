@@ -22,8 +22,10 @@ export default defineConfig({
       {
         text: "Getting Started",
         items: [
-          { text: "Introduction", link: "/api/introduction" },
-          { text: "API Endpoints", link: "/api/api-endpoints" },
+          { text: "Introduction", link: "/getting-started/introduction" },
+          { text: "API Endpoints", link: "/getting-started/api-endpoints" },
+          { text: "Frequently Asked Questions", link: "/getting-started/faq" },
+          { text: "Contribute", link: "/getting-started/contribute" },
         ],
       },
       {
@@ -80,8 +82,6 @@ export default defineConfig({
           { text: "DMCA Takedown", link: "/legal/dmca" },
         ],
       },
-      { text: "FAQ", link: "/uncategorized/faq" },
-      { text: "Contribute", link: "/uncategorized/contribute" },
     ],
 
     socialLinks: [
@@ -117,7 +117,7 @@ export default defineConfig({
   vite: {
     plugins: [groupIconVitePlugin()],
     server: {
-      allowedHosts: ["newport-kentucky-reproduce-draw.trycloudflare.com"],
+      allowedHosts: ["missed-rough-phones-leaders.trycloudflare.com"],
     },
   },
 });
