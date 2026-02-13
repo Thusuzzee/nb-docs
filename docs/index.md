@@ -35,17 +35,17 @@ hero:
 
   <div class="feature-grid home-grid-3">
     <a class="feature-card feature-card-link" href="/legal/tos">
-      <img src="/icons/gavel.svg" alt="Introduction" />
+      <img src="/icons/gavel.svg" alt="Terms and Conditions" />
       <h3>Terms and Conditions</h3>
       <p>The basic rules and terms for using our website and services.</p>
     </a>
     <a class="feature-card feature-card-link" href="/legal/privacy">
-      <img src="/icons/policy.svg" alt="API Endpoints" />
+      <img src="/icons/policy.svg" alt="Privacy Policy" />
       <h3>Privacy Policy</h3>
       <p>How we collect, use, store, and protect your personal data and information.</p>
     </a>
     <a class="feature-card feature-card-link" href="/legal/dmca">
-      <img src="/icons/bid_landscape_disabled.svg" alt="API Endpoints" />
+      <img src="/icons/bid_landscape_disabled.svg" alt="DMCA Takedown" />
       <h3>DMCA Takedown</h3>
       <p>Procedures for submitting copyright infringement claims and content removal requests.</p>
     </a>
