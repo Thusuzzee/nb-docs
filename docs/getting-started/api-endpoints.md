@@ -1,12 +1,10 @@
 ---
-outline: [2]
+outline: [2, 3]
 ---
 
 # API Endpoints
 
 ## Base URL
-
-All requests are made against:
 
 ```
 https://nekos.best/api/:version
@@ -51,6 +49,7 @@ Categories define the type of content returned by the API. Each category maps to
   <span class="category-chip">baka</span>
   <span class="category-chip">bite</span>
   <span class="category-chip">blush</span>
+  <span class="category-chip">bonk</span>
   <span class="category-chip">bored</span>
   <span class="category-chip">cry</span>
   <span class="category-chip">cuddle</span>
@@ -82,6 +81,7 @@ Categories define the type of content returned by the API. Each category maps to
   <span class="category-chip">smile</span>
   <span class="category-chip">smug</span>
   <span class="category-chip">stare</span>
+  <span class="category-chip">tableflip</span>
   <span class="category-chip">think</span>
   <span class="category-chip">thumbsup</span>
   <span class="category-chip">tickle</span>
@@ -91,9 +91,9 @@ Categories define the type of content returned by the API. Each category maps to
   <span class="category-chip">yeet</span>
 </div>
 
-## List Available Categories
+## Endpoints
 
-### GET `/endpoints`
+### <Badge type="tip" text="GET" class="http-get" /> /endpoints
 
 Returns all available API categories and their associated file formats.
 
@@ -113,9 +113,9 @@ Returns all available API categories and their associated file formats.
 Use this endpoint to dynamically discover supported categories instead of hardcoding them.
 :::
 
-## Get Random Asset
+---
 
-### GET `/:category`
+### <Badge type="tip" text="GET" class="http-get" /> /:category
 
 Returns a random image or GIF from the specified category, including metadata.
 
@@ -164,9 +164,9 @@ By default the API defaults amount to `1`.
 }
 ```
 
-## Search Assets
+---
 
-### GET `/search`
+### <Badge type="tip" text="GET" class="http-get" /> /search
 
 Search for images or GIFs using metadata such as artist names or source titles.
 
@@ -215,9 +215,9 @@ Search for images or GIFs using metadata such as artist names or source titles.
 }
 ```
 
-## Get Specific Asset
+---
 
-### GET `/:category/:filename.:format`
+### <Badge type="tip" text="GET" class="http-get" /> /:category/:filename.:format
 
 Retrieves a specific asset directly.
 

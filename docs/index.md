@@ -15,6 +15,7 @@ hero:
 
 <div class="home-section">
     <h1 class="home-title">Quick Links</h1>
+
   <div class="feature-grid home-grid-3">
     <a class="feature-card feature-card-link" href="/getting-started/introduction">
       <img src="/icons/person.svg" alt="Introduction" />
@@ -50,6 +51,7 @@ hero:
       <p>Procedures for submitting copyright infringement claims and content removal requests.</p>
     </a>
   </div>
+  
 </div>
 
 

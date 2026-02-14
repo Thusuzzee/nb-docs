@@ -29,9 +29,14 @@ export default defineConfig({
       {
         text: "Code Examples",
         items: [
+          // ADD YOUR CODE EXAMPLE UNDER HERE; KEEP IT ALPHABETICALLY //
+          // { text: "", link: "/examples/" },
+
           { text: "BDFD", link: "/examples/bdfd" },
           { text: "JavaScript", link: "/examples/javascript" },
           { text: "Python", link: "/examples/python" },
+
+          // ADD YOUR CODE EXAMPLE ABOVE HERE; KEEP IT ALPHABETICALLY //
         ],
       },
       {
