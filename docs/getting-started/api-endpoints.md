@@ -26,12 +26,9 @@ Replace `:version` with one of the supported versions below.
   </div>
 </div>
 
-  
-
 ## Categories
 
 Categories define the type of content returned by the API. Each category maps to a fixed file format.
-
 
 ### Images
 
@@ -125,7 +122,6 @@ Returns a random image or GIF from the specified category, including metadata.
 | amount | number   | No       | Number of results to return (`1 ≤ X ≤ 20`) |
 
 By default the API defaults amount to `1`.
-
 
 #### Example (single result)
 

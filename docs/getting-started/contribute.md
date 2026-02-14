@@ -62,7 +62,6 @@ $ bun add -D vitepress@next
 
 ### 4. Add your code example
 
-
 #### 4.1. Add your code example 
 1. Create a new file under `/docs/examples` named after its programming language, with the filename ending in `.md`.
 2. Write at least **two different ways** to make API calls.

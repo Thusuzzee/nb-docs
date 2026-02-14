@@ -5,7 +5,7 @@ prev: false
 
 # Terms of Service
 
-Last updated: **11.02.2026**
+Last updated: **14.02.2026**
 
 These Terms of Service (“Terms”) govern your access to and use of the **nekos.best website** and the **NEKOSBEST API** (“Service”), operated by **NEKOSBEST** (“we”, “us”, “our”).
 

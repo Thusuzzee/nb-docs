@@ -64,7 +64,6 @@ We've been active since **February 2021** and serve high quality, family friendl
 
 </div>
 
-
 ## Support, Suggestions & Feedback
 
 If you need any help with our API, you can join our [Discord Server](https://nekos.best/discord?ref=docs) at any time.

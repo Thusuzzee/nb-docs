@@ -54,7 +54,6 @@ hero:
   
 </div>
 
-
 <div class="home-section">
     <h1 class="home-title">Official Libraries</h1>
 
