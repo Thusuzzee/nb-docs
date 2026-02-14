@@ -29,7 +29,7 @@ export default defineConfig({
       {
         text: "Code Examples",
         items: [
-          // 
+          //
           // { text: "", link: "/examples/" },
           //
           // ADD YOUR CODE EXAMPLE UNDER THIS SECTION; KEEP IT ALPHABETICALLY //
@@ -93,6 +93,13 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/nekos-best/docs" },
       { icon: "discord", link: "https://nekos.best/discord?ref=docs" },
     ],
+
+    lastUpdated: {
+      text: "Last updated at",
+      formatOptions: {
+        dateStyle: "long",
+      },
+    },
   },
 
   head: [
@@ -105,6 +112,7 @@ export default defineConfig({
         src: "https://alycs.nekos.best/script.js",
       },
     ],
+    ["link", { rel: "icon", href: "/logos/favicon.ico" }],
   ],
 
   sitemap: {

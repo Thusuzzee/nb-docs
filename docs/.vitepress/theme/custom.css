@@ -24,23 +24,19 @@
 
     --vp-code-block-bg: rgba(245, 245, 245, 1);
     --vp-code-bg: #f4f4f5;
-
-    --vp-code-line-highlight-color: rgba(0, 0, 0, 0.04);
 }
 
 .dark {
-    --vp-c-bg: #141414;
-    --vp-c-bg-alt: #181818;
+    --vp-c-bg: #0a0a0a;
+    --vp-c-bg-alt: #0f0f0f;
     --vp-c-bg-soft: #1d1d1d;
 
     --vp-c-bg-elv: #222222;
 
     --vp-c-divider: rgba(255, 255, 255, 0.11);
 
-    --vp-code-block-bg: #1e1f22;
+    --vp-code-block-bg: #1c1c1c;
     --vp-code-bg: #24262a;
-
-    --vp-code-line-highlight-color: rgba(255, 255, 255, 0.05);
 }
 
 /** Feature Cards **/
@@ -54,7 +50,7 @@
 .feature-card {
     padding: 1.25rem;
     border-radius: 12px;
-    background: var(--vp-c-bg);
+    background: var(--vp-c-bg-alt);
     border: 1px solid var(--vp-c-divider);
 }
 
@@ -85,12 +81,12 @@
 
 .category-chip {
     padding: 0.35rem 0.7rem;
-    border-radius: 999px;
-    font-size: 0.8rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
     font-weight: 500;
     line-height: 1;
 
-    background-color: color-mix(in srgb, var(--vp-c-brand) 10%, transparent);
+    background-color: color-mix(in srgb, var(--vp-c-brand) 7%, transparent);
 
     color: var(--vp-c-brand);
 
@@ -177,4 +173,5 @@
 
     border: 1px solid var(--vp-badge-tip-border);
     font-weight: 600;
+    border-radius: 5px;
 }

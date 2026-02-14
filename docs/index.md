@@ -61,15 +61,15 @@ hero:
   <div class="feature-grid home-grid-3">
     <a class="feature-card feature-card-link" href="https://github.com/nekos-best/nekos-best.py">
         <img src="/logos/python.svg" alt="Python" />
-      <h3>Python ↗</h3>
+      <h3>Python</h3>
     </a>
     <a class="feature-card feature-card-link" href="https://github.com/nekos-best/nekos-best.js">
     <img src="/logos/javascript.svg" alt="JavaScript" />
-      <h3>JavaScript ↗</h3>
+      <h3>JavaScript</h3>
     </a>
     <a class="feature-card feature-card-link" href="https://github.com/nekos-best/nekos-best.rs">
     <img src="/logos/rust.svg" alt="Rust" />
-      <h3>Rust ↗</h3>
+      <h3>Rust</h3>
     </a>
   </div>
 </div>

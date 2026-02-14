@@ -44,7 +44,7 @@ You can find VitePress' prerequisites in [their documentation.](https://vitepres
 
 ```sh [npm]
 $ npm add -D vitepress@next
-````
+```
 
 ```sh [pnpm]
 $ pnpm add -D vitepress@next

@@ -99,8 +99,7 @@ Returns all available API categories and their associated file formats.
 
 #### Example
 
-[https://nekos.best/api/v2/endpoints](https://nekos.best/api/v2/endpoints)
-
+https://nekos.best/api/v2/endpoints
 ```json
 {
   "neko": { "format": "png" },
@@ -130,7 +129,7 @@ By default the API defaults amount to `1`.
 
 #### Example (single result)
 
-[https://nekos.best/api/v2/neko](https://nekos.best/api/v2/neko)
+https://nekos.best/api/v2/neko
 
 ```json
 {
@@ -147,7 +146,7 @@ By default the API defaults amount to `1`.
 
 #### Example (multiple results)
 
-[https://nekos.best/api/v2/hug?amount=2](https://nekos.best/api/v2/hug?amount=2)
+https://nekos.best/api/v2/hug?amount=2
 
 ```json
 {
@@ -181,7 +180,7 @@ Search for images or GIFs using metadata such as artist names or source titles.
 
 #### Example (image search)
 
-[https://nekos.best/api/v2/search?query=John&type=1](https://nekos.best/api/v2/search?query=John&type=1)
+https://nekos.best/api/v2/search?query=John&type=1
 
 ```json
 {
@@ -198,7 +197,7 @@ Search for images or GIFs using metadata such as artist names or source titles.
 
 #### Example (GIF search with category)
 
-[https://nekos.best/api/v2/search?query=Senko&type=2&category=pat&amount=2](https://nekos.best/api/v2/search?query=Senko&type=2&category=pat&amount=2)
+https://nekos.best/api/v2/search?query=Senko&type=2&category=pat&amount=2
 
 ```json
 {
@@ -242,6 +241,6 @@ Metadata for this endpoint is returned via **URL-encoded HTTP response headers**
 
 #### Example
 
-[https://nekos.best/api/v2/hug/xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.gif](https://nekos.best/api/v2/hug/xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.gif)
+https://nekos.best/api/v2/hug/xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.gif
 
 **Response:** Binary image or GIF data
