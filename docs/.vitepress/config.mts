@@ -12,33 +12,72 @@ export default defineConfig({
     search: { provider: "local" },
 
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Status Page", link: "https://status.nekos.best" },
+      {
+        text: "Home",
+        link: "/",
+      },
+      {
+        text: "Status Page",
+        link: "https://status.nekos.best",
+      },
     ],
 
     sidebar: [
       {
         text: "Getting Started",
         items: [
-          { text: "Introduction", link: "/getting-started/introduction" },
-          { text: "API Endpoints", link: "/getting-started/api-endpoints" },
-          { text: "Frequently Asked Questions", link: "/getting-started/faq" },
-          { text: "Contribute", link: "/getting-started/contribute" },
+          {
+            text: "Introduction",
+            link: "/getting-started/introduction",
+          },
+          {
+            text: "API Endpoints",
+            link: "/getting-started/api-endpoints",
+          },
+          {
+            text: "Frequently Asked Questions",
+            link: "/getting-started/faq",
+          },
+          {
+            text: "Contribute",
+            link: "/getting-started/contribute",
+            items: [
+              {
+                text: "Images & GIFs",
+                link: "/contribute/images-gifs",
+              },
+              {
+                text: "Code Examples",
+                link: "/contribute/code-examples",
+              },
+              {
+                text: "Unofficial Libraries",
+                link: "/contribute/unofficial-libraries",
+              },
+            ],
+          },
         ],
       },
       {
         text: "Code Examples",
         items: [
           //
-          // { text: "", link: "/examples/" },
-          //
-          // ADD YOUR CODE EXAMPLE UNDER THIS SECTION; KEEP IT ALPHABETICALLY //
+          // ADD YOUR <<CODE EXAMPLES>> UNDER THIS SECTION; KEEP IT ALPHABETICALLY //
 
-          { text: "BDFD", link: "/examples/bdfd" },
-          { text: "JavaScript", link: "/examples/javascript" },
-          { text: "Python", link: "/examples/python" },
+          {
+            text: "BDFD",
+            link: "/examples/bdfd",
+          },
+          {
+            text: "JavaScript",
+            link: "/examples/javascript",
+          },
+          {
+            text: "Python",
+            link: "/examples/python",
+          },
 
-          // ADD YOUR CODE EXAMPLE ABOVE THIS SECTION; KEEP IT ALPHABETICALLY //
+          // ADD YOUR <<CODE EXAMPLES>> ABOVE THIS SECTION; KEEP IT ALPHABETICALLY //
         ],
       },
       {
@@ -62,6 +101,9 @@ export default defineConfig({
             text: "About Unofficial Libraries",
             link: "/unofficial/unofficial",
             items: [
+              //
+              // ADD YOUR <<LIBRARY>> UNDER THIS SECTION; KEEP IT ALPHABETICALLY //
+
               {
                 text: "C#",
                 link: "https://github.com/Sylveon76/Nekos.Best-API",
@@ -70,11 +112,16 @@ export default defineConfig({
                 text: "Dart",
                 link: "https://github.com/Yakiyo/nekos_best_dart",
               },
-              { text: "Go", link: "https://github.com/Yakiyo/nekos_best.go" },
+              {
+                text: "Go",
+                link: "https://github.com/Yakiyo/nekos_best.go",
+              },
               {
                 text: "Haskell",
                 link: "https://github.com/xquantxz/nekos-best.hs",
               },
+
+              // ADD YOUR <<LIBRARY>> ABOVE THIS SECTION; KEEP IT ALPHABETICALLY //
             ],
           },
         ],
@@ -129,5 +176,8 @@ export default defineConfig({
 
   vite: {
     plugins: [groupIconVitePlugin()],
+    server: {
+      allowedHosts: ["types-beautifully-match-phd.trycloudflare.com"],
+    },
   },
 });
