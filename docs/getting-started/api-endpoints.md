@@ -12,6 +12,8 @@ https://nekos.best/api/:version
 
 Replace `:version` with one of the supported versions below.
 
+All requests must include a `User-Agent` header. We’d appreciate it if you included your app name, version, and website link in the following format: `APP_NAME/VERSION (WEBSITE_URL)`. For example: `NekoApp/1.0 (https://example.com)`
+
 ## Versions
 
 <div class="versions-table">
