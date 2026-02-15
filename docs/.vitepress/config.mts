@@ -62,7 +62,7 @@ export default defineConfig({
         text: "Code Examples",
         items: [
           //
-          // ADD YOUR <<CODE EXAMPLES>> UNDER THIS SECTION; KEEP IT ALPHABETICALLY //
+          // ADD YOUR <<CODE EXAMPLE>> UNDER THIS SECTION; KEEP IT ALPHABETICALLY //
 
           {
             text: "BDFD",
@@ -77,7 +77,7 @@ export default defineConfig({
             link: "/examples/python",
           },
 
-          // ADD YOUR <<CODE EXAMPLES>> ABOVE THIS SECTION; KEEP IT ALPHABETICALLY //
+          // ADD YOUR <<CODE EXAMPLE>> ABOVE THIS SECTION; KEEP IT ALPHABETICALLY //
         ],
       },
       {
