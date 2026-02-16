@@ -1,7 +1,7 @@
 # BDFD (Bot Designer For Discord)
 
 ## Getting an Image
-```
+```sass
 $nomention
 $httpGet[https://nekos.best/api/v2/neko]
 $title[Here is a Neko for you!]
@@ -12,7 +12,7 @@ $color[#e91e63]
 ```
 
 ## Getting a GIF
-```
+```sass
 $nomention
 $httpGet[https://nekos.best/api/v2/hug]
 $description[<@$authorID> hugged <@$mentioned[1]>]
