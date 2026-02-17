@@ -5,7 +5,7 @@ next: false
 
 # DMCA & Copyright Policy
 
-Last updated: **15.02.2026**
+Last updated: **17.02.2026**
 
 This DMCA & Copyright Policy describes how **NEKOSBEST** (“we”, “us”, “our”) handles copyright infringement claims relating to content made available through the **nekos.best website** and the **NEKOSBEST API** (“Service”).
 

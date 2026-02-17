@@ -121,7 +121,7 @@ Returns a random image or GIF from the specified category, including metadata.
 
 | Name   | Type   | Required | Description                                |
 | ------ | ------ | -------- | ------------------------------------------ |
-| amount | number   | No       | Number of results to return (`1 ≤ X ≤ 20`) |
+| amount | number | No       | Number of results to return (`1 ≤ X ≤ 20`) |
 
 By default the API defaults amount to `1`.
 
@@ -172,7 +172,7 @@ Search for images or GIFs using metadata such as artist names or source titles.
 | Name     | Type   | Required | Description                      |
 | -------- | ------ | -------- | -------------------------------- |
 | query    | string | Yes      | Search phrase                    |
-| type     | enum | Yes      | `1` = images, `2` = GIFs         |
+| type     | enum   | Yes      | `1` = images, `2` = GIFs         |
 | category | string | No       | Restrict results to a category   |
 | amount   | number | No       | Number of results (`1 ≤ X ≤ 20`) |
 

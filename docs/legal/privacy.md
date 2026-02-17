@@ -4,7 +4,7 @@ outline: [2]
 ---
 # Privacy Policy
 
-Last updated: **15.02.2026**
+Last updated: **17.02.2026**
 
 This Privacy Policy explains how **NEKOSBEST** (“we”, “us”, “our”) processes information when you use the **nekos.best website**, the **NEKOSBEST API**, and related documentation.
 

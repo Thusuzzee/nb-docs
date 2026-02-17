@@ -3,6 +3,7 @@
 ## Contribution Guidelines for Unofficial Libraries
 
 * Submissions **must** be written in English.
+* The library owner must join our [Discord server](https://nekos.best/discord?ref=docs)
 * Libraries must follow good code quality practices.
 * Libraries must **not** contain malware or and other unsafe behavior.
 * The library must be publicly accessible and actively maintained.
