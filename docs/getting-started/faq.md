@@ -11,7 +11,7 @@ Listed below are some of the most commonly asked questions.
 > The server is hosted in Germany.
 
 #### How reliable is the API?
-> Our API currently maintains an uptime of at least 99.98% annually.
+> Our API currently maintains an uptime of **at least** 99.99% annually.
 
 #### Is attribution required for using the API?
 > No, attribution is not required, but it is appreciated.
@@ -45,10 +45,13 @@ Listed below are some of the most commonly asked questions.
 > Absolutly. If you’d like to contribute, please join our Discord server and create a post in the `#api-support`.
 > Contributors receive a special Contributor role in our Discord community.
 
+#### Are there AI generated images or GIFs in the API?
+> No. All images and GIFs in the API are created by human artists. We do not support AI-generated content.
+
 ## Debugging / Errors
 
 #### Why am I getting a 403 (Forbidden) when making a request?
 > There are two common reasons for receiving a **403** response:
 >
-> 1. Your IP address, IP range, or Autonomous System (AS) may have been temporarily banned due to suspicious activity. To resolve this, please contact us via our [Discord server](https://nekos.best/discord) or email us at **[contact@nekos.best](mailto:contact@nekos.best)**.
+> 1. Your IP address, IP range, or Autonomous System (AS) may have been banned due to suspicious activity. To resolve this, please contact us via our [Discord server](https://nekos.best/discord) or email us at **[contact@nekos.best](mailto:contact@nekos.best)**.
 > 2. Since August 2024, all requests must include a `User-Agent` header. Make sure your request sets this header properly.

@@ -1,3 +1,7 @@
+---
+lastUpdated: false
+---
+
 # Adding Unofficial Libraries
 
 ## Contribution Guidelines for Unofficial Libraries

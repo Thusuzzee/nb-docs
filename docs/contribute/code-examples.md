@@ -1,3 +1,7 @@
+---
+lastUpdated: false
+---
+
 # Adding New Code Examples
 
 ## Contribution Guidelines for Code Examples

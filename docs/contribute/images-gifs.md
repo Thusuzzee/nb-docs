@@ -1,3 +1,7 @@
+---
+lastUpdated: false
+---
+
 # Images and GIFs
 
 ---
