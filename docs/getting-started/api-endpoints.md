@@ -195,7 +195,7 @@ https://nekos.best/api/v2/search?query=John&type=1
 
 #### Example (GIF search with category)
 
-https://nekos.best/api/v2/search?query=Senko&type=2&category=pat&amount=2
+https://nekos.best/api/v2/search?query=Generic&type=2&category=pat&amount=2
 
 ```json
 {
